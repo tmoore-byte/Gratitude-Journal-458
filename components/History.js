@@ -4,7 +4,7 @@ export default function History({ gratitudes }){
         <p className="text-white text-2xl">
             Previously you were greatful for
             <span className="font-bold"> 
-                {gratitudes.map(g => ' ' + g).toString()}
+                {gratitudes.map(g => ' ' + g.entry).toString()}
             </span>
         </p>
 
